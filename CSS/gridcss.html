@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <style>
+        * {
+            margin: 0px;
+        }
+
+        .content {
+
+            list-style: none;
+            display: flex;
+            justify-content: space-evenly;
+            padding: 5px;
+        }
+
+        .main {
+            /* background-color: rgb(106, 0, 255); */
+            display: grid;
+            /* border: solid rgb(163, 42, 12); */
+            width: 100%;
+            height: 1500px;
+            grid-template-columns: 100px auto auto 150px;
+            grid-template-rows: 80px 400px 400px 300px 130px;
+            grid-column-gap: 10px;
+            grid-row-gap: 5px;
+
+
+
+        }
+
+        .container {
+            /* border: solid blueviolet */
+            /* width: 150px; */
+            /* height: 80px; */
+        }
+
+
+        #items1 {
+            padding: 15px;
+            background-color: rgb(255, 89, 0);
+            grid-column-start: 1;
+            grid-column-end: 5;
+
+        }
+
+        #items11 {
+            background-color: rgb(255, 146, 127);
+            grid-row-start: 6;
+            grid-column-start: 1;
+            grid-column-end: 5;
+            background-color: brown;
+
+        }
+
+        #items3 {
+            grid-row-start: 2;
+            grid-row-end: 4;
+            grid-column-start: 2;
+            grid-column-end: 4;
+            background-color: rgb(184, 38, 38);
+        }
+
+        #items7 {
+            /* grid-row-start:4 ;
+            grid-row-end:5 ;
+            ;
+           */
+            grid-column-start: 1;
+            grid-column-end: 3;
+
+        }
+
+        #items8 {
+            grid-column-start: 3;
+            grid-column-end: 7;
+        }
+        #items9 {
+            grid-column-start: 1;
+            grid-column-end: 3;
+        }
+        
+        #items10 {
+            grid-column-start: 3;
+            grid-column-end: 5;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="main">
+        <div id="items1" class="container">
+            <ul class="content">
+                <li>Home</li>
+                <li>Product</li>
+                <li>Blog</li>
+                <li>About Us </li>
+                <li>Contact Us</li>
+                <li>Log In</li>
+                <li>Register</li>
+            </ul>
+        </div>
+        <div id="items2" class="container">2</div>
+        <div id="items3" class="container">
+            <img src="pexels-photo-2101187.jpeg" width="100%" height="800px" alt="">
+
+
+
+
+
+        </div>
+        <div style="background-color: red;" id="items4" class="container">4</div>
+        <div style="background-color: red;" id="items5" class="container">5</div>
+        <div style="background-color: red;" id="items6" class="container">6</div>
+        <div style="background-color: rgb(81, 0, 255);" id="items7" class="container">7</div>
+        <div style="background-color: red;" id="items8" class="container">8</div>
+        <div style="background-color: red;" id="items9" class="container">9</div>
+        <div style="background-color: red;" id="items10" class="container">10</div>
+        <div id="items11" class="container">Footer</div>
+    </div>
+
+
+
+
+</body>
+
+</html>

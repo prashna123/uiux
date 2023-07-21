@@ -1,0 +1,33 @@
+
+#index{ border: solid yellow;
+    height: 100px;
+    background-color: antiquewhite;
+}
+#index1{
+    border: solid green;
+    height: 500px;
+    background-color: aqua;
+    position: absolute;
+    z-index: 5;
+     width: 300px; 
+}
+#index2{
+    border: solid red;
+    height: 50px;
+    background-color: blue;
+     width: 20px;
+     position: absolute;
+     z-index: 10;
+}
+#index3{
+    border: solid purple;
+    height: 300px;
+    width: 400px;
+    background-color: olivedrab;
+
+}
+#index4{
+    border: solid yellowgreen;
+    height: 200px;
+    width: 50px;
+}

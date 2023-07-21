@@ -1,0 +1,28 @@
+/* 
+Selector in css
+1.universal selector
+2.Id selector
+3.Class selector
+4.Type selector/element selector
+
+*/
+*{
+margin: 0;
+}
+body{
+
+    background-image: url();
+
+/* background-color: darkgreen; */
+
+
+}
+#mj{
+color: brown;
+background-color: blue;
+}
+
+.Name{
+font-size:large;
+
+}

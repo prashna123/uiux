@@ -1,0 +1,18 @@
+.demo{
+ /* margin-bottom: 10px; */
+ border: solid red;
+
+
+}
+.even{
+    /* absolute (start from the top) */
+    /* relative(start from the element starting point) */
+    /* fixed(remains same while lifting up and down) */
+    /* static(default position) */
+    border: solid green;
+    position: fixed;
+    height: 350px;
+    width: 300px;
+    left: 200px;
+    background-color: aquamarine;    
+}
